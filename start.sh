@@ -35,4 +35,4 @@ cat << EOF > ./bin/app.json
 }
 EOF
 
-./bin/EasyBot -config=./bin/app.json
+nohup ./bin/EasyBot -config=./bin/app.json &
