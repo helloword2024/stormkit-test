@@ -2,13 +2,13 @@
   "name": "sample-project",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:9090",
+  "proxy": "http://localhost:8000",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "bash start.sh",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev:api": "SERVERLESS_PORT=9090 node ./node_modules/@stormkit/serverless/dist/dev-server.js"
+    "dev:api": "SERVERLESS_PORT=8000 bash start.sh"
   },
   "eslintConfig": {
     "extends": [
